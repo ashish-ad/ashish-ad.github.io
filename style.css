@@ -24,7 +24,7 @@ h3 {
 
 main { 
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 30% 70%;
     margin-top: 3em;
 }
 
@@ -39,19 +39,27 @@ section {
 
 i {
     margin-right: .5em;
+    text-align: right;
 }
 
 p {
-    margin: .2em auto
+    margin: .2em auto;
+    text-align: justify;
 }
 
 hr {
-    border: none;
+    text-align: auto center;
+    border: 1.5px solid;
+    border-color: greenyellow;
     background-color: lightgray;
     height: 1px;
 }
 
-h1, h2 {
+h1, h2, h3{
     font-weight: 100;
     margin-bottom: 0;
+}
+
+#mainLeft {
+    border-right: 1px solid lightgray;
 }
